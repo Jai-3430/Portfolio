@@ -1,0 +1,162 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eaf6ff"/>
+      <stop offset="100%" stop-color="#58a5ff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1685ff"/>
+      <stop offset="100%" stop-color="#4238f5"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#edf4ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#174c9c" flood-opacity=".2"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="480" rx="26" fill="url(#bg)"/>
+  <circle cx="820" cy="70" r="150" fill="#fff" opacity=".18"/>
+  <circle cx="65" cy="430" r="140" fill="#fff" opacity=".2"/>
+
+  <!-- Brand and title -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g transform="translate(52 45)">
+      <path d="M0 15 L34 0 L68 15 L34 31 Z" fill="url(#blue)"/>
+      <path d="M8 29 L34 41 L60 29 L60 39 L34 53 L8 39 Z" fill="#1768e8"/>
+      <path d="M8 43 L34 55 L60 43 L60 53 L34 67 L8 53 Z" fill="#1647bd"/>
+    </g>
+    <text x="135" y="83" font-size="43" font-weight="800" fill="#10234b">Study<tspan fill="#1769ed">Drop</tspan></text>
+    <text x="137" y="108" font-size="15" letter-spacing="1.5" fill="#47658e">YOUR STUDY, YOUR PRIORITY</text>
+
+    <text x="54" y="181" font-size="35" font-weight="800" fill="#10234b">Smart Learning</text>
+    <text x="54" y="222" font-size="35" font-weight="800" fill="#1769ed">Platform</text>
+    <text x="56" y="253" font-size="15" fill="#365780">Your notes. Your files. All in one place.</text>
+    <text x="56" y="275" font-size="15" fill="#365780">Organize and access study materials easily.</text>
+  </g>
+
+  <!-- Feature rows -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g transform="translate(57 310)">
+      <circle cx="20" cy="20" r="20" fill="#1685ff"/>
+      <path d="M12 22 L20 14 L28 22 M20 14 V29 M10 26 V31 H30 V26" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="53" y="17" font-size="16" font-weight="700" fill="#10234b">Upload Materials</text>
+      <text x="53" y="37" font-size="13" fill="#47658e">Notes, PDFs and documents</text>
+    </g>
+    <g transform="translate(57 371)">
+      <circle cx="20" cy="20" r="20" fill="#7c4dff"/>
+      <path d="M8 20 Q20 6 32 20 Q20 34 8 20 Z" fill="none" stroke="#fff" stroke-width="2.5"/>
+      <circle cx="20" cy="20" r="4" fill="#fff"/>
+      <text x="53" y="17" font-size="16" font-weight="700" fill="#10234b">Preview &amp; Download</text>
+      <text x="53" y="37" font-size="13" fill="#47658e">Access learning files with ease</text>
+    </g>
+  </g>
+
+  <!-- Laptop body -->
+  <g filter="url(#shadow)">
+    <rect x="390" y="112" width="440" height="286" rx="18" fill="#132b51"/>
+    <rect x="401" y="123" width="418" height="264" rx="10" fill="url(#screen)"/>
+    <path d="M365 399 L852 399 L880 426 Q882 434 865 435 L350 435 Q337 434 343 426 Z" fill="#829fc7"/>
+    <path d="M365 399 L852 399 L864 420 L355 420 Z" fill="#d9e8fc"/>
+    <rect x="565" y="405" width="100" height="6" rx="3" fill="#91acd2"/>
+  </g>
+
+  <!-- Laptop app UI -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="414" y="139" width="392" height="35" rx="7" fill="#fff"/>
+    <circle cx="429" cy="156" r="5" fill="#ff6578"/>
+    <circle cx="444" cy="156" r="5" fill="#ffc247"/>
+    <circle cx="459" cy="156" r="5" fill="#35c98b"/>
+    <text x="480" y="161" font-size="13" font-weight="700" fill="#173568">StudyDrop</text>
+
+    <rect x="414" y="180" width="91" height="196" rx="7" fill="#122e61"/>
+    <rect x="423" y="195" width="73" height="27" rx="6" fill="#277bff"/>
+    <text x="436" y="212" font-size="10" font-weight="700" fill="#fff">⌂ Home</text>
+    <text x="428" y="244" font-size="10" fill="#d9e7ff">▤ My Files</text>
+    <text x="428" y="272" font-size="10" fill="#d9e7ff">↑ Upload</text>
+    <text x="428" y="300" font-size="10" fill="#d9e7ff">♡ Shared</text>
+    <text x="428" y="328" font-size="10" fill="#d9e7ff">⚙ Settings</text>
+
+    <text x="521" y="202" font-size="17" font-weight="700" fill="#142c55">Hello, Student!</text>
+    <text x="521" y="221" font-size="10" fill="#6881a5">Everything you need to study smarter.</text>
+    <rect x="520" y="234" width="269" height="25" rx="7" fill="#fff" stroke="#d8e5f7"/>
+    <circle cx="533" cy="245" r="4" fill="none" stroke="#7390b9" stroke-width="1.5"/>
+    <path d="M536 248 L540 252" stroke="#7390b9" stroke-width="1.5"/>
+    <text x="546" y="249" font-size="9" fill="#8aa0bd">Search your study materials...</text>
+
+    <rect x="520" y="271" width="82" height="64" rx="9" fill="#e5f2ff"/>
+    <rect x="530" y="281" width="25" height="25" rx="7" fill="#1979f9"/>
+    <path d="M542 299 V286 M537 291 L542 286 L547 291" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <text x="530" y="319" font-size="9" font-weight="700" fill="#174477">Upload Files</text>
+
+    <rect x="611" y="271" width="82" height="64" rx="9" fill="#e1fbf0"/>
+    <rect x="621" y="281" width="25" height="25" rx="7" fill="#0dbb84"/>
+    <path d="M626 289 H641 V300 H626 Z M629 286 H638" stroke="#fff" stroke-width="1.5" fill="none"/>
+    <text x="621" y="319" font-size="9" font-weight="700" fill="#11684f">My Documents</text>
+
+    <rect x="702" y="271" width="87" height="64" rx="9" fill="#f0eaff"/>
+    <rect x="712" y="281" width="25" height="25" rx="7" fill="#8c5cf6"/>
+    <circle cx="720" cy="289" r="3" fill="#fff"/>
+    <circle cx="729" cy="289" r="3" fill="#fff"/>
+    <path d="M716 299 Q724 290 733 299" stroke="#fff" stroke-width="2" fill="none"/>
+    <text x="712" y="319" font-size="9" font-weight="700" fill="#5d3ba4">Shared Files</text>
+
+    <text x="521" y="355" font-size="12" font-weight="700" fill="#142c55">Recent Documents</text>
+    <rect x="520" y="362" width="269" height="18" rx="4" fill="#fff"/>
+    <path d="M530 366 H540 V376 H530 Z" fill="#f34e59"/>
+    <text x="547" y="374" font-size="9" fill="#375579">Python_Notes.pdf</text>
+    <path d="M769 368 V377 M765 373 L769 377 L773 373" fill="none" stroke="#1877f2" stroke-width="1.5"/>
+  </g>
+
+  <!-- Phone -->
+  <g filter="url(#shadow)">
+    <rect x="741" y="239" width="135" height="203" rx="20" fill="#10203e" stroke="#fff" stroke-width="3"/>
+    <rect x="750" y="252" width="117" height="178" rx="12" fill="#f8fbff"/>
+    <rect x="784" y="245" width="49" height="8" rx="4" fill="#10203e"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="761" y="273" font-size="11" font-weight="800" fill="#1759c5">StudyDrop</text>
+    <rect x="759" y="283" width="100" height="19" rx="6" fill="#fff" stroke="#dce8f8"/>
+    <text x="767" y="295" font-size="7" fill="#7d91ae">Search files...</text>
+    <text x="759" y="317" font-size="9" font-weight="700" fill="#18335d">Quick Access</text>
+    <rect x="759" y="324" width="46" height="39" rx="6" fill="#e0efff"/>
+    <rect x="811" y="324" width="47" height="39" rx="6" fill="#def9ef"/>
+    <path d="M777 337 V348 M773 341 L777 337 L781 341" stroke="#1675ee" stroke-width="1.7" fill="none"/>
+    <path d="M825 337 H844 V349 H825 Z M829 334 H840" stroke="#0eaf7b" stroke-width="1.5" fill="none"/>
+    <text x="766" y="357" font-size="7" fill="#1c477f">Upload</text>
+    <text x="819" y="357" font-size="7" fill="#167253">My Files</text>
+    <text x="759" y="380" font-size="9" font-weight="700" fill="#18335d">Recent Files</text>
+    <rect x="759" y="386" width="99" height="25" rx="5" fill="#fff"/>
+    <rect x="765" y="392" width="11" height="14" rx="2" fill="#f14c5b"/>
+    <text x="780" y="397" font-size="6.5" fill="#264365">Python Notes</text>
+    <text x="780" y="405" font-size="6" fill="#7890b0">PDF document</text>
+  </g>
+
+  <!-- Floating accents -->
+  <g font-family="Arial, Helvetica, sans-serif" filter="url(#shadow)">
+    <rect x="342" y="80" width="58" height="67" rx="12" fill="#fff" transform="rotate(-9 371 113)"/>
+    <path d="M359 94 H380 L389 103 V130 H359 Z" fill="#ff5368"/>
+    <path d="M380 94 V103 H389" fill="#ff8997"/>
+    <text x="363" y="119" font-size="11" font-weight="700" fill="#fff">PDF</text>
+    <rect x="791" y="66" width="56" height="56" rx="15" fill="#fff" transform="rotate(8 819 94)"/>
+    <path d="M809 97 Q809 88 818 88 Q824 78 833 88 Q843 88 843 97 Q843 105 834 105 H816 Q809 105 809 97" fill="#287bff"/>
+    <path d="M826 103 V91 M821 96 L826 91 L831 96" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  </g>
+  <path d="M380 154 Q400 170 415 150" stroke="#fff" stroke-width="3" stroke-dasharray="6 7" fill="none" opacity=".8"/>
+  <path d="M842 144 Q875 165 851 184" stroke="#fff" stroke-width="3" stroke-dasharray="6 7" fill="none" opacity=".8"/>
+
+  <!-- Footer -->
+  <rect x="53" y="433" width="266" height="29" rx="14" fill="#fff" opacity=".88"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#28476e">
+    <text x="69" y="452">HTML</text>
+    <circle cx="119" cy="447" r="2" fill="#9bb8df"/>
+    <text x="132" y="452">CSS</text>
+    <circle cx="169" cy="447" r="2" fill="#9bb8df"/>
+    <text x="181" y="452">JavaScript</text>
+    <circle cx="250" cy="447" r="2" fill="#9bb8df"/>
+    <text x="261" y="452">Firebase</text>
+  </g>
+</svg>
