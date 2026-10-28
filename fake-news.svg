@@ -1,1 +1,139 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520"><defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#07172e"/><stop offset="1" stop-color="#0d4e91"/></linearGradient></defs><rect width="100%" height="100%" fill="url(#g)"/><g opacity=".22" stroke="#6db6ff" fill="none"><path d="M40 80h260M90 150h450M80 300h300M500 80l220 140-120 190"/></g><rect x="65" y="90" width="320" height="190" rx="18" fill="#06101f" stroke="#4da3ff"/><text x="95" y="145" fill="#78b7ff" font-family="Arial" font-size="32">NEWS ANALYSIS</text><text x="95" y="200" fill="white" font-family="Arial" font-size="55" font-weight="700">FAKE NEWS</text><circle cx="690" cy="260" r="105" fill="#0b2342" stroke="#5eb0ff" stroke-width="3"/><path d="M650 250h80M690 210v80" stroke="#70b9ff" stroke-width="12"/></svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#edf5ff"/>
+      <stop offset="100%" stop-color="#579cff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1685ff"/>
+      <stop offset="100%" stop-color="#4038e8"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#edf4ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#164b98" flood-opacity=".22"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="480" rx="26" fill="url(#bg)"/>
+  <circle cx="820" cy="70" r="150" fill="#fff" opacity=".17"/>
+  <circle cx="60" cy="440" r="140" fill="#fff" opacity=".2"/>
+
+  <!-- Heading -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g transform="translate(54 43)">
+      <path d="M0 0 H47 L61 14 V67 H0 Z" fill="url(#blue)"/>
+      <path d="M47 0 V14 H61" fill="#85c0ff"/>
+      <path d="M13 23 H47 M13 34 H43 M13 45 H37" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    <text x="130" y="78" font-size="37" font-weight="800" fill="#10234b">Fake News</text>
+    <text x="130" y="115" font-size="37" font-weight="800" fill="#1769ed">Detection AI</text>
+    <text x="56" y="151" font-size="14" letter-spacing="1.5" fill="#47658e">MACHINE LEARNING PROJECT</text>
+
+    <text x="55" y="205" font-size="30" font-weight="800" fill="#10234b">Truth Starts</text>
+    <text x="55" y="243" font-size="30" font-weight="800" fill="#1769ed">With Detection</text>
+    <text x="57" y="275" font-size="14" fill="#365780">Analyze news text using machine learning.</text>
+    <text x="57" y="297" font-size="14" fill="#365780">Explore patterns and predict news labels.</text>
+  </g>
+
+  <!-- Feature rows -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g transform="translate(57 323)">
+      <circle cx="20" cy="20" r="19" fill="#167bfa"/>
+      <circle cx="18" cy="17" r="7" fill="none" stroke="#fff" stroke-width="2.5"/>
+      <path d="M23 22 L30 29" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+      <text x="52" y="17" font-size="15" font-weight="700" fill="#10234b">Text Analysis</text>
+      <text x="52" y="37" font-size="12" fill="#47658e">Process news text and features</text>
+    </g>
+    <g transform="translate(57 382)">
+      <circle cx="20" cy="20" r="19" fill="#12b886"/>
+      <path d="M20 7 L32 12 V20 Q31 29 20 34 Q9 29 8 20 V12 Z" fill="none" stroke="#fff" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M14 20 L18 24 L26 16" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="52" y="17" font-size="15" font-weight="700" fill="#10234b">ML Prediction</text>
+      <text x="52" y="37" font-size="12" fill="#47658e">Classify text as Fake or True</text>
+    </g>
+  </g>
+
+  <!-- Laptop -->
+  <g filter="url(#shadow)">
+    <rect x="380" y="70" width="440" height="328" rx="18" fill="#142849"/>
+    <rect x="391" y="81" width="418" height="306" rx="10" fill="url(#screen)"/>
+    <path d="M353 399 H847 L876 426 Q879 434 862 435 H341 Q328 434 335 426 Z" fill="#829fc7"/>
+    <path d="M353 399 H847 L860 420 H348 Z" fill="#dce9fb"/>
+    <rect x="553" y="405" width="105" height="6" rx="3" fill="#91acd2"/>
+  </g>
+
+  <!-- Dashboard top bar -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="404" y="96" width="392" height="34" rx="7" fill="#fff"/>
+    <circle cx="419" cy="113" r="5" fill="#ff6578"/>
+    <circle cx="434" cy="113" r="5" fill="#ffc247"/>
+    <circle cx="449" cy="113" r="5" fill="#35c98b"/>
+    <text x="469" y="118" font-size="12" font-weight="700" fill="#173568">NewsGuard AI</text>
+    <rect x="735" y="104" width="49" height="17" rx="8" fill="#e4f1ff"/>
+    <text x="743" y="116" font-size="8" font-weight="700" fill="#1769ed">ONLINE</text>
+
+    <!-- Sidebar -->
+    <rect x="404" y="136" width="91" height="240" rx="7" fill="#122e61"/>
+    <rect x="413" y="151" width="73" height="27" rx="6" fill="#277bff"/>
+    <text x="424" y="168" font-size="10" font-weight="700" fill="#fff">⌂ Dashboard</text>
+    <text x="419" y="200" font-size="10" fill="#d9e7ff">▤ Analyze News</text>
+    <text x="419" y="228" font-size="10" fill="#d9e7ff">◈ Predictions</text>
+    <text x="419" y="256" font-size="10" fill="#d9e7ff">▥ Model Stats</text>
+    <text x="419" y="284" font-size="10" fill="#d9e7ff">⚙ Settings</text>
+
+    <!-- Main heading and input -->
+    <text x="510" y="158" font-size="17" font-weight="700" fill="#142c55">News Analysis</text>
+    <text x="510" y="177" font-size="10" fill="#6881a5">Enter text to analyze its predicted category.</text>
+
+    <rect x="510" y="190" width="276" height="74" rx="9" fill="#fff" stroke="#d8e5f7"/>
+    <text x="522" y="210" font-size="10" font-weight="700" fill="#29476d">NEWS TEXT</text>
+    <text x="522" y="229" font-size="10" fill="#617c9f">Read the article and analyze the</text>
+    <text x="522" y="243" font-size="10" fill="#617c9f">text using the trained ML model...</text>
+    <rect x="510" y="271" width="118" height="27" rx="7" fill="url(#blue)"/>
+    <text x="529" y="288" font-size="10" font-weight="700" fill="#fff">Analyze News →</text>
+
+    <!-- Result card -->
+    <rect x="510" y="307" width="276" height="63" rx="9" fill="#e7f8ef" stroke="#c0ecd3"/>
+    <circle cx="535" cy="337" r="15" fill="#14b879"/>
+    <path d="M527 337 L533 343 L543 331" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="559" y="330" font-size="10" fill="#39765a">PREDICTED CATEGORY</text>
+    <text x="559" y="350" font-size="17" font-weight="800" fill="#087b50">TRUE NEWS</text>
+    <text x="559" y="362" font-size="8" fill="#39765a">Illustrative UI result</text>
+  </g>
+
+  <!-- AI shield floating card -->
+  <g filter="url(#shadow)">
+    <rect x="734" y="37" width="104" height="103" rx="17" fill="#fff" transform="rotate(7 786 88)"/>
+    <path d="M786 53 L814 64 V84 Q811 104 786 117 Q761 104 758 84 V64 Z" fill="url(#blue)"/>
+    <path d="M773 83 L782 92 L800 73" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Floating article card -->
+  <g filter="url(#shadow)" transform="rotate(-7 357 193)">
+    <rect x="306" y="161" width="91" height="103" rx="12" fill="#fff"/>
+    <rect x="319" y="175" width="64" height="31" rx="5" fill="#e4efff"/>
+    <path d="M327 197 L337 184 L346 193 L355 181 L375 199" fill="none" stroke="#277bff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="319" y="215" width="54" height="5" rx="2" fill="#b3c8e7"/>
+    <rect x="319" y="226" width="62" height="5" rx="2" fill="#d2def0"/>
+    <rect x="319" y="237" width="44" height="5" rx="2" fill="#d2def0"/>
+    <circle cx="379" cy="247" r="10" fill="#ff6878"/>
+    <path d="M375 243 L383 251 M383 243 L375 251" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Footer technology chips -->
+  <rect x="52" y="445" width="264" height="25" rx="12" fill="#fff" opacity=".9"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#28476e">
+    <text x="65" y="461">Python</text>
+    <circle cx="111" cy="457" r="2" fill="#9bb8df"/>
+    <text x="122" y="461">Scikit-learn</text>
+    <circle cx="197" cy="457" r="2" fill="#9bb8df"/>
+    <text x="208" y="461">NLP</text>
+    <circle cx="242" cy="457" r="2" fill="#9bb8df"/>
+    <text x="253" y="461">ML</text>
+  </g>
+</svg>
